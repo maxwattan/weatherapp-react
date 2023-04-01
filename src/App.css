@@ -1,38 +1,124 @@
 .App {
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-page h1 {
+  color: rgb(78, 128, 128)
 }
+
+.about-page p {
+color: orangered;
+font-size: large;
+font-weight: bold;
+}
+
+nav {
+  background-color: rgb(175, 244, 244);
+  margin: 5px;
+  padding-bottom: 40px;
+}
+nav li {
+
+  list-style: none;
+}
+nav li:hover{
+color: white
+}
+
+
+li.home {
+  float: left;
+  color: orangered;
+  text-decoration: none;
+
+}
+
+li.about {
+  float: right;
+  color: orangered;
+  text-decoration: none;
+  
+}
+li.search {
+  color: orangered;
+  text-decoration: none;
+}
+
+
+.about-me img {
+  margin-top: 50px;
+  border-radius: 15%;
+}
+
+.about-me img:hover {
+  border-radius: 10%;
+  
+}
+
+.about-me a{
+color: orangered;
+font-style: italic;
+font-size: x-large;
+text-decoration: none;
+
+}
+
+.about-me a:hover {
+color: whitesmoke;
+
+}
+
+.home-main {
+  background-image: url("./Components/MOC_GIFO_SEASONS.gif");
+  background-size: "cover";
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-main h1{
+color: tomato;
+}
+
+.about-card {
+  background-image: url("./Components/Summer+Beach.jpeg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.weather-search h1{
+color: orangered;
+}
+
+.weather-search .input-bar{
+  width: 250px;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+
+.weather-search button{
+  border-radius: 5px;
+  background-color: red;
+  
+}
+
+.weather-search button:hover {
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+.previous-search {
+  color: red;
+  
+}
+
+.previous-search li {
+  list-style: none;
+}
+
